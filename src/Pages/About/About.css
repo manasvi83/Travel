@@ -1,0 +1,35 @@
+.container
+{
+    background: rgb(20,30,48);
+    background: linear-gradient(179deg, rgba(20,30,48,1) 0%, rgba(36,59,85,1) 100%);
+    margin: 0;
+    padding: 0%;
+    scroll-behavior: auto;
+    overflow: hidden;
+
+}
+
+.blog-container{
+    width: 75%;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: .5rem;
+    box-shadow: .5px .5px black;
+
+
+}
+
+.blog{
+    backdrop-filter: blur(6px) saturate(200%);
+    -webkit-backdrop-filter: blur(6px) saturate(200%);
+    background-color: rgba(181, 255, 228, 0.47);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+    width: 80%;
+    display: flex;
+    margin: 100px;
+    padding: 40px;
+    text-decoration-color: aliceblue;
+}

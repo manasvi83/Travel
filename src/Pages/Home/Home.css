@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/* .main-div {
+    background-color: #01021e; 
+    position: fixed;
+  }
+  
+  .tag-div-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to bottom right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url('../../Assests/bgimg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-blend-mode: multiply;
+  }
+   */
+
+   .main-div {
+    background-color: #01021e;
+    /* height: 100vh; */
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    /* z-index: -1000; */
+  }
+  
+  .heading-bg-div{
+    background-color: #01021e;
+    height: 100vh;
+   
+  }
+
+  .heading-bg-div img {
+    width: 100%;
+    height: 100%;
+    aspect-ratio : 16/9;
+    opacity: .5;
+    position: absolute;
+    left : 0;
+    top : 0;
+    z-index: 0;
+    
+    /* , radial-gradient(circle, transparent, #01021e) */
+    /* background: radial-gradient( rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.65), rgba(0,0,0,0.99)); */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .heading-div-content {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height : 100vh;
+  }
+  
+  .heading {
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+    font-weight: bold;
+    line-height: 1.2;
+    opacity: initial;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+  
+  /* background: rgb(20,30,48);
+background: linear-gradient(179deg, rgba(20,30,48,1) 0%, rgba(36,59,85,1) 100%); */
