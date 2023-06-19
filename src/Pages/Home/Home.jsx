@@ -1,6 +1,6 @@
 import React from 'react'
 import './Home.css';
-import img from '../../Assests/snow.jpg'
+import img from '../../Assests/landscape.jpg'
 import '../../Components/Cards/Card'
 import Card from '../../Components/Cards/Card';
 
@@ -12,17 +12,44 @@ export default function Home() {
                         <img src={img} alt=''/>
                     <div className='heading-div-content'>
                     <h1 className='heading'>Cold to the body<br /> Warm to the Soul</h1>
-                    </div>                    
+                    </div>   
+                    <div className='bg-filter'></div>                 
                 </div>
                 <div className='explore-container'>
                     <div className='explore-content-head'>
+                    
                         <h2>Explore The Surroundings</h2>
-                        <h4>Explore the breathtaking beauty of Manali, a paradise nestled in the Himalayas. 
-                        Whether you seek adventure, tranquility, or cultural immersion, Manali has something for everyone. 
-                        Discover the wonders that await you!</h4>
+                        
+                        <h4>Manali offers a delightful blend of natural wonders, cultural heritage, and thrilling adventures. Whether you seek tranquility, cultural exploration, or exhilarating experiences, this vibrant city has it all. 
+                        Start exploring Manali's treasures now and create memories that will last a lifetime.</h4>
                     </div>
-                    <div className='explore-cards'>
-                        <Card title='Solang Valley'  />
+                    <div className='page-content'>
+                        <Card
+                            img="https://images.unsplash.com/photo-1517021897933-0e0319cfbc28?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ"
+                            title='Solang Valley'
+                            />
+                        <Card
+                            img="https://images.unsplash.com/photo-1533903345306-15d1c30952de?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ"
+                            title='Solang Valley'
+                            />
+                        <Card
+                            img="https://images.unsplash.com/photo-1545243424-0ce743321e11?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ"
+                            title='Solang Valley'
+                            />
+                        <Card
+                            img="https://images.unsplash.com/photo-1531306728370-e2ebd9d7bb99?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ"
+                            title='Solang Valley'
+                            />
+
+                        {/* Rohtang Pass - Snowy Bliss!
+                        Step into a snowy paradise of majestic peaks, cascading glaciers, and pure winter bliss. 
+
+                        Hadimba Temple - Mystical Marvel!
+                        Embark on a journey to an ancient temple hidden amidst mystical forests. 
+
+                        Solang Valley - Adrenaline Overload!
+                        Hold on tight as you dive into a thrilling playground nestled amidst snow-capped peaks. */}
+
                     </div>
                 </div>
             </div>
