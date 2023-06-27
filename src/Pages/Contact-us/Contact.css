@@ -1,0 +1,209 @@
+/* body {
+    margin: 0;
+  }
+  
+  .box {
+    background: url("https://image.ibb.co/nJHGgk/about_us1.jpg");
+    color: white;
+    text-align: center;
+    z-index: 1;
+  }
+  
+  .text {
+    padding: 100px 0;
+  }
+  
+  .box p {
+    font-size: 18px;
+  }
+  
+  .red {
+    color: orangered;
+  }
+  
+  .redline {
+    width: 100px;
+    height: 3px;
+    background-color: red;
+    border: none;
+  }
+  
+  .touch h2 {
+    padding-top: 20px;
+    text-align: center;
+  }
+  
+  .form-margin {
+    margin-top: 40px;
+  }
+  
+  .left {
+    text-align: left;
+  }
+  
+  h3 {
+    font-weight: bold;
+  }
+  
+  .redline-address {
+    border: none;
+    height: 3px;
+    background-color: orangered;
+    width: 140px;
+    margin-bottom: 20px;
+  }
+  
+  .address {
+    padding-top: 50px;
+  }
+  
+  .address p {
+    font-weight: bold;
+    color: #676565;
+    margin: 3px;
+  }
+  
+  .phone-e {
+    padding: 15px 0;
+  }
+  
+  .logo img {
+    height: 50px;
+    width: 150px;
+    z-index: 2;
+    float: left;
+    margin-top: 10px;
+  }
+  
+  .bottom-gap {
+    margin-bottom: 100px;
+  }
+  
+
+  input:valid {
+    background-color: #dff0d8;
+  }
+  
+  input:invalid {
+    background-color: #f2dede;
+  }
+  
+  input:pristine {
+    background-color: white;
+  }
+  
+  textarea:invalid {
+    background-color: #f2dede;
+  }
+  
+  textarea:pristine {
+    background-color: white;
+  }
+  
+  textarea:valid {
+    background-color: #dff0d8;
+  }
+   */
+
+  .contactus-body .box {
+    /* background: url("https://image.ibb.co/nJHGgk/about_us1.jpg"); */
+    color: white;
+    text-align: center;
+    z-index: 1;
+  }
+  
+  .contactus-body .text {
+    padding: 100px 0;
+  }
+  
+  .contactus-body .box p {
+    font-size: 18px;
+  }
+  
+  .contactus-body .red {
+    color: orangered;
+  }
+  
+  .contactus-body .redline {
+    width: 100px;
+    height: 3px;
+    background-color: red;
+    border: none;
+  }
+  
+  .contactus-body .touch h2 {
+    padding-top: 20px;
+    text-align: center;
+  }
+  
+  .contactus-body .form-margin {
+    margin-top: 40px;
+  }
+  
+  .contactus-body .left {
+    text-align: left;
+  }
+  
+  .contactus-body h3 {
+    font-weight: bold;
+  }
+  
+  .contactus-body .redline-address {
+    border: none;
+    height: 3px;
+    background-color: orangered;
+    width: 140px;
+    margin-bottom: 20px;
+  }
+  
+  .contactus-body .address {
+    padding-top: 50px;
+  }
+  
+  .contactus-body .address p {
+    font-weight: bold;
+    color: #676565;
+    margin: 3px;
+  }
+  
+  .contactus-body .phone-e {
+    padding: 15px 0;
+  }
+  
+  .contactus-body .logo img {
+    height: 50px;
+    width: 150px;
+    z-index: 2;
+    float: left;
+    margin-top: 10px;
+  }
+  
+  .contactus-body .bottom-gap {
+    margin-bottom: 100px;
+  }
+  
+  /* Validation CSS */
+  .contactus-body input:valid {
+    background-color: #dff0d8;
+  }
+  
+  .contactus-body input:invalid {
+    background-color: #f2dede;
+  }
+  
+  .contactus-body input:pristine {
+    background-color: white;
+  }
+  
+  .contactus-body textarea:invalid {
+    background-color: #f2dede;
+  }
+  
+  .contactus-body textarea:pristine {
+    background-color: white;
+  }
+  
+  .contactus-body textarea:valid {
+    background-color: #dff0d8;
+  }
+  

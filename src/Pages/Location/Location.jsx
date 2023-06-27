@@ -1,300 +1,67 @@
-// import React, { useEffect } from 'react';
-
-// const Location = () => {
-//   useEffect(() => {
-//     const initializeMap = () => {
-//       const myLatlng = new window.google.maps.LatLng(32.2396, 77.1887);
-
-//       const mapOptions = {
-//         zoom: 10,
-//         zoomControl: true,
-//         zoomControlOptions: {
-//           style: window.google.maps.ZoomControlStyle.SMALL
-//         },
-//         center: myLatlng,
-//         mapTypeId: window.google.maps.MapTypeId.ROADMAP,
-//         mapTypeControl: false,
-//         styles: [
-//           {
-//             "stylers": [
-//               { "saturation": -100 }
-//             ]
-//           },
-//           {
-//             "elementType": "labels.icon",
-//             "stylers": [
-//               { "visibility": "off" }
-//             ]
-//           }
-//         ]
-//       };
-
-//       const map = new window.google.maps.Map(document.getElementById("map-canvas"), mapOptions);
-
-//       const marker = new window.google.maps.Marker({
-//         position: new window.google.maps.LatLng(32.2396, 77.1887),
-//         animation: window.google.maps.Animation.DROP,
-//         map: map
-//       });
-//     };
-
-//     const loadGoogleMapsAPI = () => {
-//       const script = document.createElement("script");
-//       script.src = "https://maps.googleapis.com/maps/api/js?key=AIzaSyC3RxqDNHkn1phr1GBvU9kD5NGUznVkbtU&callback=initializeMap";
-//       script.async = true;
-//       script.defer = true;
-//       script.addEventListener("load", initializeMap);
-//       document.body.appendChild(script);
-//     };
-
-//     const mapContainer = document.getElementById('map-inner');
-//     if (mapContainer) {
-//       loadGoogleMapsAPI();
-//     }
-//   }, []);
-
-//   return (
-//     <div id="container">
-//       <div id="map-canvas"></div>
-//       <div id="map-inner" className="gradient-lateral">
-//         <div className="overflow">
-//           <h1>Manali, India</h1>
-//           <p>
-//             Manali is a beautiful hill station located in the Indian state of Himachal Pradesh. It is situated at an altitude of 2,050 meters (6,726 ft) in the Beas River Valley. Manali is known for its breathtaking natural beauty, snow-capped mountains, lush greenery, and adventure activities like trekking, skiing, and paragliding.
-//           </p>
-//         </div>
-//       </div>
-//     </div>
-//   );
-// };
-
-// export default Location;
-
-
-// import React, { useEffect } from 'react';
-
-// const initializeMap = () => {
-//   const myLatlng = new window.google.maps.LatLng(32.2396, 77.1887);
-
-//   const mapOptions = {
-//     zoom: 10,
-//     zoomControl: true,
-//     zoomControlOptions: {
-//       style: window.google.maps.ZoomControlStyle.SMALL
-//     },
-//     center: myLatlng,
-//     mapTypeId: window.google.maps.MapTypeId.ROADMAP,
-//     mapTypeControl: false,
-//     styles: [
-//       {
-//         "stylers": [
-//           { "saturation": -100 }
-//         ]
-//       },
-//       {
-//         "elementType": "labels.icon",
-//         "stylers": [
-//           { "visibility": "off" }
-//         ]
-//       }
-//     ]
-//   };
-
-//   const map = new window.google.maps.Map(document.getElementById("map-canvas"), mapOptions);
-
-//   const marker = new window.google.maps.Marker({
-//     position: new window.google.maps.LatLng(32.2396, 77.1887),
-//     animation: window.google.maps.Animation.DROP,
-//     map: map
-//   });
-// };
-
-// const Location = () => {
-//   useEffect(() => {
-//     const loadGoogleMapsAPI = () => {
-//       const script = document.createElement("script");
-//       script.src = "https://maps.googleapis.com/maps/api/js?key=AIzaSyC3RxqDNHkn1phr1GBvU9kD5NGUznVkbtU&callback=initializeMap";
-//       script.async = true;
-//       script.defer = true;
-//       script.addEventListener("load", initializeMap);
-//       document.body.appendChild(script);
-//     };
-
-//     const mapContainer = document.getElementById('map-inner');
-//     if (mapContainer) {
-//       loadGoogleMapsAPI();
-//     }
-//   }, []);
-
-//   return (
-//     <div id="container">
-//       <div id="map-canvas"></div>
-//       <div id="map-inner" className="gradient-lateral">
-//         <div className="overflow">
-//           <h1>Manali, India</h1>
-//           <p>
-//             Manali is a beautiful hill station located in the Indian state of Himachal Pradesh. It is situated at an altitude of 2,050 meters (6,726 ft) in the Beas River Valley. Manali is known for its breathtaking natural beauty, snow-capped mountains, lush greenery, and adventure activities like trekking, skiing, and paragliding.
-//           </p>
-//         </div>
-//       </div>
-//     </div>
-//   );
-// };
-
-// export default Location;
-
-
-
-
-// import React, { useEffect } from 'react';
-
-// const Location = () => {
-//   const initializeMap = () => {
-//     const myLatlng = new window.google.maps.LatLng(32.2396, 77.1887);
-
-//     const mapOptions = {
-//       zoom: 10,
-//       zoomControl: true,
-//       zoomControlOptions: {
-//         style: window.google.maps.ZoomControlStyle.SMALL
-//       },
-//       center: myLatlng,
-//       mapTypeId: window.google.maps.MapTypeId.ROADMAP,
-//       mapTypeControl: false,
-//       styles: [
-//         {
-//           "stylers": [
-//             { "saturation": -100 }
-//           ]
-//         },
-//         {
-//           "elementType": "labels.icon",
-//           "stylers": [
-//             { "visibility": "off" }
-//           ]
-//         }
-//       ]
-//     };
-
-//     const map = new window.google.maps.Map(document.getElementById("map-canvas"), mapOptions);
-
-//     const marker = new window.google.maps.Marker({
-//       position: new window.google.maps.LatLng(32.2396, 77.1887),
-//       animation: window.google.maps.Animation.DROP,
-//       map: map
-//     });
-//   };
-
-//   useEffect(() => {
-//     const loadGoogleMapsAPI = () => {
-//       const script = document.createElement("script");
-//       script.src = "https://maps.googleapis.com/maps/api/js?key=AIzaSyC3RxqDNHkn1phr1GBvU9kD5NGUznVkbtU&callback=initializeMap";
-//       script.async = true;
-//       script.defer = true;
-//       script.addEventListener("load", initializeMap);
-//       document.body.appendChild(script);
-//     };
-
-//     const mapContainer = document.getElementById('map-inner');
-//     if (mapContainer) {
-//       loadGoogleMapsAPI();
-//     }
-//   }, []);
-
-//   return (
-//     <div id="container">
-//       <div id="map-canvas"></div>
-//       <div id="map-inner" className="gradient-lateral">
-//         <div className="overflow">
-//           <h1>Manali, India</h1>
-//           <p>
-//             Manali is a beautiful hill station located in the Indian state of Himachal Pradesh. It is situated at an altitude of 2,050 meters (6,726 ft) in the Beas River Valley. Manali is known for its breathtaking natural beauty, snow-capped mountains, lush greenery, and adventure activities like trekking, skiing, and paragliding.
-//           </p>
-//         </div>
-//       </div>
-//     </div>
-//   );
-// };
-
-// export default Location;
-
-
-
 import React, { useEffect } from 'react';
 import './Location.css'
 
 const Location = () => {
-  useEffect(() => {
-    const initializeMap = () => {
-      const myLatlng = new window.google.maps.LatLng(32.2396, 77.1887);
-
-      const mapOptions = {
-        zoom: 10,
-        zoomControl: true,
-        zoomControlOptions: {
-          style: window.google.maps.ZoomControlStyle.SMALL
-        },
-        center: myLatlng,
-        mapTypeId: window.google.maps.MapTypeId.ROADMAP,
-        mapTypeControl: false,
-        styles: [
-          {
-            "stylers": [
-              { "saturation": -100 }
-            ]
-          },
-          {
-            "elementType": "labels.icon",
-            "stylers": [
-              { "visibility": "off" }
-            ]
-          }
-        ]
-      };
-
-      const map = new window.google.maps.Map(document.getElementById("map-canvas"), mapOptions);
-
-      const marker = new window.google.maps.Marker({
-        position: new window.google.maps.LatLng(32.2396, 77.1887),
-        animation: window.google.maps.Animation.DROP,
-        map: map
-      });
-    };
-
-    const loadGoogleMapsAPI = () => {
-      const script = document.createElement("script");
-      script.src = "https://maps.googleapis.com/maps/api/js?key=AIzaSyC3RxqDNHkn1phr1GBvU9kD5NGUznVkbtU&callback=initializeMap";
-      script.async = true;
-      script.defer = true;
-      window.initializeMap = initializeMap; // Assigning the function to the global scope
-      script.addEventListener("load", initializeMap);
-      document.body.appendChild(script);
-    };
-
-    const mapContainer = document.getElementById('map-inner');
-    if (mapContainer) {
-      loadGoogleMapsAPI();
-    }
-  }, []);
-  
   
   return (
     <>
-    {/* pHacQeebEjMF1PbI1m6lvwcPhaRmzK1n */}
-
-    <div className='map-body' >
-      <div id="container">
-        <div id="map-canvas"></div>
-        <div id="map-inner" className="gradient-lateral">
-          <div className="overflow">
-            <h1>Manali, India</h1>
-            <p>
-              Manali is a beautiful hill station located in the Indian state of Himachal Pradesh. It is situated at an altitude of 2,050 meters (6,726 ft) in the Beas River Valley. Manali is known for its breathtaking natural beauty, snow-capped mountains, lush greenery, and adventure activities like trekking, skiing, and paragliding.
-            </p>
+      <div className='map-page' >
+        <div className='map-box' >
+          <div className="map-canvas">
+              <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26997.532519570806!2d77.1665201785801!3d32.23947037910967!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39048708163fd03f%3A0x8129a80ebe5076cd!2sManali%2C%20Himachal%20Pradesh!5e0!3m2!1sen!2sin!4v1687873134159!5m2!1sen!2sin" 
+                width="100%" 
+                height="100%" 
+                // allowfullscreen="" 
+                loading="lazy" 
+                referrerpolicy="no-referrer-when-downgrade"
+              >
+            </iframe>
+          </div>
+          <div id="map" className="map-inner gradient-lateral">
+            <div className="overflow">
+              <h1>Manali, India</h1>
+              <p>
+                Manali is a beautiful hill station located in the Indian state of Himachal Pradesh. It is situated at an altitude of 2,050 meters (6,726 ft) in the Beas River Valley. Manali is known for its breathtaking natural beauty, snow-capped mountains, lush greenery, and adventure activities like trekking, skiing, and paragliding.
+              </p>
+            </div>
           </div>
         </div>
       </div>
-    </div>
+      {/* <div className='map-body' >
+        <div id="container">
+          <div id="map-canvas">
+            <iframe 
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26997.532519570806!2d77.1665201785801!3d32.23947037910967!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39048708163fd03f%3A0x8129a80ebe5076cd!2sManali%2C%20Himachal%20Pradesh!5e0!3m2!1sen!2sin!4v1687873134159!5m2!1sen!2sin" 
+              width="100%" 
+              height="100%" 
+              // allowfullscreen="" 
+              loading="lazy" 
+              referrerpolicy="no-referrer-when-downgrade"
+            >
+            </iframe>
+          </div>
+          <div id="map-inner" className="gradient-lateral">
+            <div className="overflow">
+              <h1>Manali, India</h1>
+              <p>
+                Manali is a beautiful hill station located in the Indian state of Himachal Pradesh. It is situated at an altitude of 2,050 meters (6,726 ft) in the Beas River Valley. Manali is known for its breathtaking natural beauty, snow-capped mountains, lush greenery, and adventure activities like trekking, skiing, and paragliding.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div> */}
+      <div>
+        {/* <iframe 
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26997.532519570806!2d77.1665201785801!3d32.23947037910967!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39048708163fd03f%3A0x8129a80ebe5076cd!2sManali%2C%20Himachal%20Pradesh!5e0!3m2!1sen!2sin!4v1687873134159!5m2!1sen!2sin" 
+          width="600" 
+          height="450" 
+          allowfullscreen="" 
+          loading="lazy" 
+          // referrerpolicy="no-referrer-when-downgrade"
+        >
+        </iframe> */}
+      </div>
     </>
   );
 };
