@@ -1,4 +1,4 @@
-.navbar {
+.navbars {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -11,7 +11,7 @@
     z-index: 100;
 }
 
-.navbar h1 {
+.navbars h1 {
     cursor: pointer;
     text-shadow: 1px 4px 7px rgba(0,0,0,0.6);
 }

@@ -1,0 +1,90 @@
+body{
+    margin:0;
+  }
+  .box{
+    background: url("https://images.unsplash.com/photo-1592548890095-cd2a7aeca5ac?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: white;
+    text-align:center;
+    z-index:1;
+  }
+  .text{
+    text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
+      padding: 100px 0;
+  }
+  .box p{
+    font-size:18px;
+  }
+  .red{
+    color:orangered;
+  }
+  .redline{
+    width:100px;
+    height:3px;
+    background-color:red;
+    border:none;
+    margin: auto;
+  }
+  .touch h2{
+    padding-top: 20px;
+    text-align: center;
+  }
+  .form-margin{
+    margin-top: 40px;
+  }
+  .left{
+    text-align:left;
+  }
+  h3{
+    font-variant:bold;
+  }
+  .redline-address{
+    border:none;
+    height:3px;
+    background-color:orangered;
+    width:140px;
+    margin-bottom:20px;
+  }
+  .address{
+    padding-top: 50px;
+  }
+  .address p{
+    font-weight:bold;
+    color: #676565;
+    margin:3px;
+  }
+  .phone-e{
+    padding:15px 0;
+  }
+  .logo img{
+    height:50px;
+    width:150px;
+    z-index:2;
+    float:left;
+    margin-top:10px;
+  }
+  .bottom-gap{
+    margin-bottom:100px;
+  }
+  /*validation css*/
+  input.ng-valid {
+    background-color:#dff0d8;
+  }
+  input.ng-invalid {
+      background-color:#f2dede;
+  }
+  input.ng-pristine{
+    background-color:white;
+  }
+  textarea.ng-invalid {
+      background-color:#f2dede;
+  }
+  textarea.ng-pristine{
+    background-color:white;
+  }
+  textarea.ng-valid {
+    background-color:#dff0d8;
+  }
+  

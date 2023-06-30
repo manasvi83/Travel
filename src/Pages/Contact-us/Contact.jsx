@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './Contact.css'
+// import './Contact.css'
 import Navbar from '../../Components/Navbar/Navbar';
 
 function ContactForm() {

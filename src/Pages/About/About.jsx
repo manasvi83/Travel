@@ -7,7 +7,7 @@ export default function About() {
     <>
         <div className='aboutus-container'>
           <div className='blog-container'>
-            <div className='blog'>
+            <div className='blogs'>
               <h1>Magical Manali: Where Adventure Meets Tranquility</h1><br/>
                 <p>
                   Are you ready for an enchanting escape to a land of breathtaking beauty and adrenaline-pumping adventures?

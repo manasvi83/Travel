@@ -7,7 +7,8 @@ import Home from './Pages/Home/Home'
 import About from './Pages/About/About'
 import Bestspot from './Pages/Best-spots/Bestspot'
 import Location from './Pages/Location/Location'
-import Contact from './Pages/Contact-us/Contact'
+// import Contact from './Pages/Contact-us/Contact'
+import Contact from './Pages/ContactUs/ContactUs'
 
 
 

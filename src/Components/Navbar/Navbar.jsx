@@ -5,7 +5,7 @@ import './Navbar.css'
 export default function Navbar() {
     return (
         <>    
-        <div className='navbar'>
+        <div className='navbars'>
             <h1> Manali</h1>
             <nav className='navigate'>
                 <Link to="/">Home</Link>

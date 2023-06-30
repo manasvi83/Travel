@@ -48,7 +48,7 @@
 
 /* Styles */
 
-body::before {
+.map-page::before {
   content: "";
   position: absolute;
   top: 0;
@@ -176,6 +176,10 @@ body::before {
 }
 .map-canvas > iframe{
   border-radius: 30px;
+}
+.overflow{
+  width: 60%;
+  text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
 }
 .map-inner{
   position: absolute;
